@@ -80,7 +80,7 @@ def will_song_be_hit(datas,
     return result,link
 
 c_df = pd.read_csv('c_data.csv',index_col=[0])
-token = 'BQC6dN4e0HsiUCiXPWMWw2A7R8mc56aQ_bzEM94V7WQDxS09hDqYWJwAHRacf2xxwZGOpGunwzbljS49BkaCFzthwcwTwWqwnMc-Pbv0o71gD7evI8CA5wvhzN9qVz8urqkD2syAdfTmBHUuHMUP2hoSjGThKJJdRMnZiDTIFGzz2ng7CNsdU-PEYRY9hf0dKzz9WQKiCTWkeQba7N4_n-4O57pbz0pOeSbW8Tb5NSOREg'
+token = 'YOUR_TOKEN'
 clustering_model = pickle.load(open('clustering_model.sav','rb'))
 classification_model = pickle.load(open('lgbm_model.sav','rb'))
 le = pickle.load(open('le.sav','rb'))
