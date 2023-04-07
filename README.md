@@ -10,14 +10,17 @@ These instructions will get you a copy of the project up and running on your loc
 
 To run the Streamlit web application, you'll need to have Python 3 installed on your computer. In addition, you'll need to install the required Python libraries using the following command:
 
+```bash
 pip install -r requirements.txt
+```
 
 ### Running the Streamlit Web Application
 
 After installing the prerequisites, you can run the Streamlit web application with the following command:
 
+```bash
 streamlit run streamlit_app.py
-
+```
 
 This command will start the web application on your local machine, and you can access it via your web browser.
 
