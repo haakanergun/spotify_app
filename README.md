@@ -8,11 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-To run the Streamlit web application, you'll need to have Python 3 installed on your computer. In addition, you'll need to install the required Python libraries using the following command:
-
-```bash
-pip install -r requirements.txt
-```
+To run the Streamlit web application, you'll need to have Python 3 installed on your computer.
 
 ### Running the Streamlit Web Application
 
